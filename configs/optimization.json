@@ -1,0 +1,22 @@
+{
+  "population": 60,
+  "generations": 40,
+  "crossover_rate": 0.9,
+  "mutation_sigma": 0.12,
+  "bounds": {
+    "wind_kw": [
+      10.0,
+      120.0
+    ],
+    "battery_kwh": [
+      40.0,
+      400.0
+    ],
+    "diesel_kw": [
+      5.0,
+      80.0
+    ]
+  },
+  "num_scenarios": 300,
+  "reliability_constraint_lpsp_percent": 5.0
+}

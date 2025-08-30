@@ -1,0 +1,19 @@
+{
+  "agent": "dqn",
+  "episodes": 400,
+  "gamma": 0.98,
+  "epsilon_start": 1.0,
+  "epsilon_min": 0.05,
+  "epsilon_decay": 0.995,
+  "ppo": {
+    "clip": 0.2,
+    "epochs": 5,
+    "batch": 256,
+    "gae_lambda": 0.95,
+    "lr": 0.001
+  },
+  "target_tau": 0.01,
+  "batch": 128,
+  "horizon": 24,
+  "seed": 7
+}
